@@ -5,13 +5,15 @@ import com.kristian.oop.model.Student;
 public class Main {
     public static void main(String[] args) {
 
+        System.out.println("Is this the first COMMIT?!");
+
 
         // Instantiate Object
         Student benny = new Student("Benny",15, true);
         Student frida = new Student("Frida",22, false);
 
 
-        System.out.println(benny.name);
+      
         System.out.println(benny.age);
         System.out.println(benny.isTired);
         if (benny.isTired){
